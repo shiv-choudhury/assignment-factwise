@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,28 @@
 
 .read-the-docs {
   color: #888;
+} */
+/* 
+.ag-theme-quartz {
+  --ag-foreground-color: rgb(14, 100, 15);
+  --ag-background-color: rgb(241, 247, 255);
+  --ag-header-background-color: rgb(128, 237, 250);
+  --ag-row-hover-color: rgb(100, 138, 255);
+} */
+
+/* override ag-header-container */
+.ag-header-container {
+  background-color: #fa9b98 !important;
+}
+
+.ag-row-even {
+  background-color: #f5f5f5 !important;
+}
+
+.blue-cell {
+  background-color: #82b8ff !important;
+}
+
+.green-cell {
+  background-color: #3cb13c !important;
 }
